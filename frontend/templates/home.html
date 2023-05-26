@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <h1>Welcome to {{ page_name }}</h1>
+    <p>This is the content of the home page.</p>
+
+    <p>Hostname: {{ hostname }}</p>
+    <p>Date: {{ date }}</p>
+{% endblock %}
